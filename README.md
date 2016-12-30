@@ -84,6 +84,10 @@ $ docker-compose up
 
 ### サイト制作の下準備をしよう
 
+#### indexページ作成
+
+#### フォルダを整理する
+
 # 参照 #
  + [現場のプロが本気で教える HTML/CSSデザイン講義](https://www.amazon.co.jp/dp/B01K3SZGR0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
  + [現場のプロが本気で教える HTML/CSSデザイン講義 サンプルデータ](https://github.com/basara669/html_css_book)
@@ -91,3 +95,5 @@ $ docker-compose up
  + [Rack::LiveReload](https://github.com/johnbintz/rack-livereload)
  + [Guard::LiveReload](https://github.com/guard/guard-livereload)
  + [Better Errors](https://github.com/charliesome/better_errors)
+ + [Rails での適切な Sass の構成手法について（翻訳](http://qiita.com/natsu871/items/53b38a2543df97df751d)
+ + [sanitize.css](https://jonathantneal.github.io/sanitize.css/)
