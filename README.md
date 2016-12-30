@@ -105,6 +105,11 @@ $ docker-compose up
 
 #### HTMLをマークアップ
 
+#### まとめ
++ コンポーネントを、まずはBlockとして作ってみる
++ 複雑なコンポーネントはBlockの中にBlockを作ってみる
++ Elementは汎用的な命名をなるべく使い、どこのBlockに属するのかをわかりやすくする
+
 
 # 参照 #
  + [現場のプロが本気で教える HTML/CSSデザイン講義](https://www.amazon.co.jp/dp/B01K3SZGR0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
