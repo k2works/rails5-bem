@@ -13,8 +13,11 @@ Rails5でBEMのサイトサンプルを作る
 | docker-compose |1.9.0    |             |
 
 # 構成 #
++ セットアップ
 
 ## セットアップ
+
+### 開発環境
 Rubyのインストール
 ```
 $ cd ~/.rbenv
@@ -25,26 +28,24 @@ $ rbenv install 2.4.0
 $ rbenv global 2.4.0
 $ gem install bundler
 ```
+```
+$ cd /vagrant
+$ bundle
+$ ./bin/rails s -p 3000 -b '0.0.0.0'
+```
+`http://127.0.0.1:3000`から動作を確認する
+
+### 本番環境
 Dockerのセットアップ
 ```
 $ vagrant ssh
 $ cd /vagrant
 $ docker-compose build
 ```
-
-## 開発環境
-```
-$ cd /vagrant
-$ bundle
-$ ./bin/rails s -p 3000 -b '0.0.0.0'
-```
-`http://127.0.0.1:3000`
-
-## 本番環境
 ```
 $ cd /vagrant
 $ docker-compose up
 ```
-`http://127.0.0.1:8888`
+`http://127.0.0.1:8888`から動作を確認する
 
 # 参照 #
