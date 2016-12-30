@@ -129,6 +129,9 @@ $ docker-compose up
   
 #### レイアウトを整えるCSSを作る
 
+#### 全体的な幅を決める
+
+
 # 参照 #
  + [現場のプロが本気で教える HTML/CSSデザイン講義](https://www.amazon.co.jp/dp/B01K3SZGR0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
  + [現場のプロが本気で教える HTML/CSSデザイン講義 サンプルデータ](https://github.com/basara669/html_css_book)
