@@ -56,3 +56,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
 end
+
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'guard-livereload', '~> 2.5', require: false
+  gem 'rack-livereload'
+end
