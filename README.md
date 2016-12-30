@@ -94,6 +94,11 @@ $ docker-compose up
 
 #### 背景色を設定する
 
+#### まとめ
++ どんなサイトを作る場合でも、まずリセットCSSを導入する
++ コンポーネントごとにファイルを分けて、一覧できるようにする
++ 変数は、変数だけのファイルを作成すると管理が楽になって効率的
+
 # 参照 #
  + [現場のプロが本気で教える HTML/CSSデザイン講義](https://www.amazon.co.jp/dp/B01K3SZGR0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
  + [現場のプロが本気で教える HTML/CSSデザイン講義 サンプルデータ](https://github.com/basara669/html_css_book)
