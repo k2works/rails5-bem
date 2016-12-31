@@ -142,6 +142,8 @@ $ docker-compose up
 
 #### インジケータの制作 
 
+#### JavaScriptを有効化する
+
 ### コンテンツ部分を作成しよう
 
 ### フッターを作成しよう
@@ -157,3 +159,5 @@ $ docker-compose up
  + [Better Errors](https://github.com/charliesome/better_errors)
  + [Rails での適切な Sass の構成手法について（翻訳](http://qiita.com/natsu871/items/53b38a2543df97df751d)
  + [sanitize.css](https://jonathantneal.github.io/sanitize.css/)
+ + [flipsnap.js](https://github.com/hokaccha/js-flipsnap/)
+ + [Underscore.js](https://github.com/jashkenas/underscore)
