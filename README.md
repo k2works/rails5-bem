@@ -144,6 +144,11 @@ $ docker-compose up
 
 #### JavaScriptを有効化する
 
+#### まとめ
++ JavaScriptを読み込む位置は、bodyタグの終了タグの位置
++ JavaScriptと連携しているところは「js-」という接頭語をつける
++ 状態についてのCSSは「isXXX」という命名規則を使う
+
 ### コンテンツ部分を作成しよう
 
 ### フッターを作成しよう
