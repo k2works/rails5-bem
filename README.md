@@ -200,6 +200,8 @@ $ docker-compose up
 
 ### WebFontを利用しよう
 
+#### WebFontを使うための準備
+
 ### 突発的な修正に上手に対応しよう
 
 ### Webページをレスポンシブ化しよう
@@ -216,3 +218,4 @@ $ docker-compose up
  + [flipsnap.js](https://github.com/hokaccha/js-flipsnap/)
  + [Underscore.js](https://github.com/jashkenas/underscore)
  + [font-awesome-rails](https://github.com/bokmann/font-awesome-rails)
+ + [Google Fonts](https://fonts.google.com)
