@@ -191,6 +191,8 @@ $ docker-compose up
 
 ### アイコンフォトを活用しよう
 
+#### アイコンフォトを使う
+
 ### WebFontを利用しよう
 
 ### 突発的な修正に上手に対応しよう
@@ -208,3 +210,4 @@ $ docker-compose up
  + [sanitize.css](https://jonathantneal.github.io/sanitize.css/)
  + [flipsnap.js](https://github.com/hokaccha/js-flipsnap/)
  + [Underscore.js](https://github.com/jashkenas/underscore)
+ + [font-awesome-rails](https://github.com/bokmann/font-awesome-rails)

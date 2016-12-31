@@ -4,6 +4,8 @@
 @import "./base/variables";
 @import "./base/reset";
 
+//font-awesome
+@import "font-awesome";
 // ===========================
 // Components
 // ===========================
@@ -32,6 +34,9 @@
 
 // セクション分け
 @import "./components/common/section";
+
+// SNS
+@import "./components/common/sns";
 
 // Others
 //----------------------------
