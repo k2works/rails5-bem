@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rails5Bem</title>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <dvi id="wrapper">
+    <div id="wrapper" class="SpMenu__wrapper">
+      <div id="overlay" class="SpMenu__overlay"></div>
       <%= yield %>
-    </dvi>
+    </div>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <script>
         imageSlide('Slide', 2);
     </script>
