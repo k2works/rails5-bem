@@ -221,6 +221,8 @@ $ docker-compose up
 + コンポーネントの修正以外の視点を持つ
 
 ### Webページをレスポンシブ化しよう
+
+#### mixinを作成する
          
 # 参照 #
  + [現場のプロが本気で教える HTML/CSSデザイン講義](https://www.amazon.co.jp/dp/B01K3SZGR0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
