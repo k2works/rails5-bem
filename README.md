@@ -230,6 +230,12 @@ $ docker-compose up
 + Media Queriesはレスポンシブの基本なので必ず覚える
 + @contentをうまく利用して、効率よくレスポンシブサイトを作成する
 + レスポンシブについてのCSSはmixinにして再利用可能にする
+
+## パーツの組み合わせによる「高速」Webページ制作
+
+### キャンペーンページを作成しよう
+
+### サイドバーのある画面を作ろう
          
 # 参照 #
  + [現場のプロが本気で教える HTML/CSSデザイン講義](https://www.amazon.co.jp/dp/B01K3SZGR0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
