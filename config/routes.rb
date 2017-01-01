@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'campaign/index'
+  get 'campaign_submit', to: 'campaign#submit'
 
   root to: 'home#index'
 
