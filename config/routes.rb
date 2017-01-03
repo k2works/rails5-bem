@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'article/index'
   get 'campaign/index'
   get 'campaign_submit', to: 'campaign#submit'
 
