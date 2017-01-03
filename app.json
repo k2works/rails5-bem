@@ -1,0 +1,6 @@
+{
+  "name": "Rails5-bem",
+  "scripts": {
+    "postdeploy": "bundle exec rake assets:precompile"
+  }
+}

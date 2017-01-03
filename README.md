@@ -1,5 +1,6 @@
 Rails5-bem
 ===================
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # 目的 #
 [現場のプロが本気で教える HTML/CSSデザイン講義](https://www.amazon.co.jp/dp/B01K3SZGR0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)の内容をRails5で実装する
@@ -12,6 +13,7 @@ Rails5-bem
 | vagrant        |1.8.2    |             |
 | docker         |1.12.1   |             |
 | docker-compose |1.8.0    |             |
+| heroku-cli     |5.6.10   |             |
 
 # 構成 #
 + セットアップ
@@ -20,17 +22,9 @@ Rails5-bem
 ## セットアップ
 
 ### 開発環境
-Rubyのインストール
 ```
-$ cd ~/.rbenv
-$ git pull origin master
-$ cd ~/.rbenv/plugins/ruby-build
-$ git pull origin master
-$ rbenv install 2.4.0
-$ rbenv global 2.4.0
-$ gem install bundler
-```
-```
+$ vagrant up
+$ vagrant ssh
 $ cd /vagrant
 $ bundle
 $ ./bin/rails s -p 3000 -b '0.0.0.0'
@@ -49,6 +43,14 @@ $ cd /vagrant
 $ docker-compose up
 ```
 `http://127.0.0.1:8888`から動作を確認する
+
+Herokuへのデプロイ
+```
+$ cd /vagrant
+$ heroku create rails5-bem
+$ git push heroku master
+```
+`https://rails5-bem.herokuapp.com から動作を確認する`
 
 ## よいCSSを書くためのHTMLマークアップ-CSS設計-
 ### デザインカンプを確認し、CSS設計を理解しよう
@@ -271,3 +273,5 @@ $ docker-compose up
  + [Underscore.js](https://github.com/jashkenas/underscore)
  + [font-awesome-rails](https://github.com/bokmann/font-awesome-rails)
  + [Google Fonts](https://fonts.google.com)
+ + [RailsアプリをHerokuにデプロイする手順メモ](http://qiita.com/EntreGulss/items/8186938683f929a0dae2)
+ + [Deploy to Herokuボタンをつけてみた](http://qiita.com/knt45/items/df1e68e5ccc935323197)
