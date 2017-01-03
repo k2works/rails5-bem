@@ -251,6 +251,8 @@ $ docker-compose up
 ### サイドバーのある画面を作ろう
 
 #### Articleページを作成する
+
+#### Flexを活用してサイドバーのあるレイアウトを作る
          
 # 参照 #
  + [現場のプロが本気で教える HTML/CSSデザイン講義](https://www.amazon.co.jp/dp/B01K3SZGR0/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
